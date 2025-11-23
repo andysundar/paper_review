@@ -1,10 +1,10 @@
 # Multi-Agent Research Paper Reviewer System
 ## A Complete Implementation Guide with Advanced Features
 
-**Author:** Anindya Bandopadhyay (Principal Member of Technical Staff, IIT Jodhpur)  
-**Date:** November 23, 2025  
-**Version:** 2.0  
-**Status:** Production Ready
+**Author:** Anindya Bandopadhyay
+**Date:** November 18, 2025  
+ 
+
 
 ---
 
