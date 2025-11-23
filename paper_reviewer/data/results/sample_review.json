@@ -1,0 +1,94 @@
+{
+  "paper_id": "sample_paper_1",
+  "review_status": "COMPLETE",
+  "reader_extraction": {
+    "summary": "",
+    "text_length": 0,
+    "sections_identified": 0,
+    "key_insights": []
+  },
+  "quality_assessment": {
+    "novelty_score": 5,
+    "methodology_score": 4,
+    "citation_score": 3,
+    "completeness_score": 2.0,
+    "overall_quality": "POOR",
+    "average_score": 3.5,
+    "assessment_details": {
+      "has_clear_methodology": false,
+      "demonstrates_novelty": false,
+      "adequate_citations": false,
+      "sections_completeness": "0/6 major sections"
+    }
+  },
+  "critique": {
+    "issue_count": 5,
+    "issues": [
+      {
+        "category": "STRUCTURE",
+        "issue": "Methodology section is missing or unclear",
+        "severity": "CRITICAL",
+        "recommendation": "Add detailed methodology description"
+      },
+      {
+        "category": "STRUCTURE",
+        "issue": "Conclusion section is missing",
+        "severity": "CRITICAL",
+        "recommendation": "Add conclusion summarizing findings and future work"
+      },
+      {
+        "category": "REFERENCES",
+        "issue": "Insufficient citations (0 found)",
+        "severity": "MAJOR",
+        "recommendation": "Add more relevant references to support claims"
+      },
+      {
+        "category": "CONTENT",
+        "issue": "Abstract is too brief",
+        "severity": "MAJOR",
+        "recommendation": "Expand abstract to properly summarize the paper"
+      },
+      {
+        "category": "OVERALL",
+        "issue": "Overall paper quality is poor",
+        "severity": "CRITICAL",
+        "recommendation": "Major revisions needed across all sections"
+      }
+    ],
+    "recommendations": [
+      {
+        "priority": 1,
+        "recommendation": "Address 3 critical issues before resubmission"
+      },
+      {
+        "priority": 2,
+        "recommendation": "Resolve 2 major issues to improve paper quality"
+      },
+      {
+        "priority": 3,
+        "recommendation": "Consider reviewer feedback and minor improvements"
+      }
+    ],
+    "summary": "Identified 5 total issues: 3 critical, 2 major."
+  },
+  "overall_recommendation": "MAJOR_REVISIONS_REQUIRED",
+  "next_steps": [
+    {
+      "priority": "HIGH",
+      "action": "Address 3 critical issues",
+      "details": [
+        "Add detailed methodology description",
+        "Add conclusion summarizing findings and future work",
+        "Major revisions needed across all sections"
+      ]
+    },
+    {
+      "priority": "MEDIUM",
+      "action": "Resolve 2 major issues",
+      "details": [
+        "Add more relevant references to support claims",
+        "Expand abstract to properly summarize the paper"
+      ]
+    }
+  ]
+}

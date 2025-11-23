@@ -1,0 +1,112 @@
+[
+  {
+    "test_id": "TEST_001",
+    "name": "Basic Paper Loading and Extraction",
+    "description": "Verify that Reader agent can load and extract text from a paper",
+    "input": {
+      "paper_id": "sample_paper_1",
+      "expected_sections": ["abstract", "introduction", "methodology"]
+    },
+    "expected_output": {
+      "status": "success",
+      "sections_found": 3,
+      "text_length_gt": 100
+    },
+    "metrics": {
+      "success_rate": 1.0,
+      "latency_ms_lt": 5000,
+      "tool_calls": 2
+    }
+  },
+  {
+    "test_id": "TEST_002",
+    "name": "Citation Extraction and Analysis",
+    "description": "Verify MetaReviewer can extract and count citations",
+    "input": {
+      "paper_id": "sample_paper_2",
+      "min_citations": 5
+    },
+    "expected_output": {
+      "citation_count_gte": 5,
+      "assessment_complete": true
+    },
+    "metrics": {
+      "success_rate": 1.0,
+      "latency_ms_lt": 3000,
+      "tool_calls": 2
+    }
+  },
+  {
+    "test_id": "TEST_003",
+    "name": "Quality Issue Detection",
+    "description": "Verify Critic agent detects quality issues and clarity problems",
+    "input": {
+      "paper_id": "sample_paper_poor_quality",
+      "expect_issues": true
+    },
+    "expected_output": {
+      "issue_count_gt": 0,
+      "has_severity_levels": true
+    },
+    "metrics": {
+      "success_rate": 1.0,
+      "latency_ms_lt": 4000,
+      "tool_calls": 2
+    }
+  },
+  {
+    "test_id": "TEST_004",
+    "name": "Full Workflow Orchestration",
+    "description": "Complete end-to-end review workflow with all three agents",
+    "input": {
+      "paper_id": "sample_paper_complete",
+      "workflow_steps": 3
+    },
+    "expected_output": {
+      "reader_complete": true,
+      "meta_reviewer_complete": true,
+      "critic_complete": true,
+      "final_recommendation": true
+    },
+    "metrics": {
+      "success_rate": 1.0,
+      "latency_ms_lt": 15000,
+      "tool_calls_gt": 5
+    }
+  },
+  {
+    "test_id": "TEST_005",
+    "name": "Error Handling - Missing Paper",
+    "description": "Verify graceful error handling when paper not found",
+    "input": {
+      "paper_id": "nonexistent_paper"
+    },
+    "expected_output": {
+      "status": "error",
+      "error_message_contains": "not found"
+    },
+    "metrics": {
+      "success_rate": 1.0,
+      "latency_ms_lt": 1000
+    }
+  },
+  {
+    "test_id": "TEST_006",
+    "name": "Assessment Scoring Consistency",
+    "description": "Verify assessment scores are consistent and within valid ranges",
+    "input": {
+      "paper_id": "sample_paper_1",
+      "score_range": [0, 10]
+    },
+    "expected_output": {
+      "novelty_score_in_range": true,
+      "methodology_score_in_range": true,
+      "citation_score_in_range": true,
+      "overall_quality_valid": true
+    },
+    "metrics": {
+      "success_rate": 1.0,
+      "latency_ms_lt": 5000
+    }
+  }
+]

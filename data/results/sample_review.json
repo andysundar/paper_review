@@ -1,0 +1,68 @@
+{
+  "paper_id": "sample_paper_1",
+  "review_status": "COMPLETE",
+  "reader_extraction": {
+    "summary": "Abstract:\nThis paper presents a comprehensive study of deep learning architectures for natural language processing tasks. We propose novel attention-based mechanisms that significantly improve performance on standard benchmarks. Our approach demonstrates state-of-the-art results on sentiment analysi...",
+    "text_length": 2842,
+    "sections_identified": 6,
+    "key_insights": [
+      "Paper structure identified and parsed",
+      "Extracted 6 major sections",
+      "Ready for detailed review by specialized agents"
+    ]
+  },
+  "quality_assessment": {
+    "novelty_score": 7,
+    "methodology_score": 4,
+    "citation_score": 4,
+    "completeness_score": 10,
+    "overall_quality": "GOOD",
+    "average_score": 6.25,
+    "assessment_details": {
+      "has_clear_methodology": false,
+      "demonstrates_novelty": true,
+      "adequate_citations": false,
+      "sections_completeness": "6/6 major sections"
+    }
+  },
+  "critique": {
+    "issue_count": 1,
+    "issues": [
+      {
+        "category": "REFERENCES",
+        "issue": "Insufficient citations (7 found)",
+        "severity": "MAJOR",
+        "recommendation": "Add more relevant references to support claims"
+      }
+    ],
+    "recommendations": [
+      {
+        "priority": 2,
+        "recommendation": "Resolve 1 major issues to improve paper quality"
+      },
+      {
+        "priority": 3,
+        "recommendation": "Consider reviewer feedback and minor improvements"
+      }
+    ],
+    "summary": "Identified 1 total issues: 1 major."
+  },
+  "overall_recommendation": "ACCEPT_WITH_MINOR_REVISIONS",
+  "next_steps": [
+    {
+      "priority": "MEDIUM",
+      "action": "Resolve 1 major issues",
+      "details": [
+        "Add more relevant references to support claims"
+      ]
+    },
+    {
+      "priority": "LOW",
+      "action": "Consider formatting and presentation improvements",
+      "details": [
+        "Polish figures and tables",
+        "Proofread for typos"
+      ]
+    }
+  ]
+}

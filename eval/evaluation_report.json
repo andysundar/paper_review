@@ -1,0 +1,107 @@
+{
+  "summary": {
+    "total_tests": 6,
+    "passed": 4,
+    "failed": 2,
+    "errors": 0,
+    "success_rate": 66.67,
+    "pass_percent": "66.7%"
+  },
+  "latency": {
+    "avg_ms": 0.26,
+    "max_ms": 0.56,
+    "min_ms": 0.16
+  },
+  "test_results": [
+    {
+      "test_id": "TEST_001",
+      "name": "Basic Paper Loading and Extraction",
+      "status": "FAILED",
+      "latency_ms": 0.56,
+      "validation_details": {
+        "output_checks": {
+          "sections_found": "FAIL"
+        },
+        "metric_checks": {
+          "success_rate": "PASS",
+          "latency": "PASS"
+        }
+      }
+    },
+    {
+      "test_id": "TEST_002",
+      "name": "Citation Extraction and Analysis",
+      "status": "FAILED",
+      "latency_ms": 0.27,
+      "validation_details": {
+        "output_checks": {
+          "citations_found": "FAIL"
+        },
+        "metric_checks": {
+          "success_rate": "PASS",
+          "latency": "PASS"
+        }
+      }
+    },
+    {
+      "test_id": "TEST_003",
+      "name": "Quality Issue Detection",
+      "status": "PASSED",
+      "latency_ms": 0.21,
+      "validation_details": {
+        "output_checks": {
+          "issues_detected": "PASS"
+        },
+        "metric_checks": {
+          "success_rate": "PASS",
+          "latency": "PASS"
+        }
+      }
+    },
+    {
+      "test_id": "TEST_004",
+      "name": "Full Workflow Orchestration",
+      "status": "PASSED",
+      "latency_ms": 0.19,
+      "validation_details": {
+        "output_checks": {
+          "workflow_complete": "PASS"
+        },
+        "metric_checks": {
+          "success_rate": "PASS",
+          "latency": "PASS"
+        }
+      }
+    },
+    {
+      "test_id": "TEST_005",
+      "name": "Error Handling - Missing Paper",
+      "status": "PASSED",
+      "latency_ms": 0.18,
+      "validation_details": {
+        "output_checks": {
+          "error_handled": "PASS"
+        },
+        "metric_checks": {
+          "success_rate": "PASS",
+          "latency": "PASS"
+        }
+      }
+    },
+    {
+      "test_id": "TEST_006",
+      "name": "Assessment Scoring Consistency",
+      "status": "PASSED",
+      "latency_ms": 0.16,
+      "validation_details": {
+        "output_checks": {
+          "scores_in_range": "PASS"
+        },
+        "metric_checks": {
+          "success_rate": "PASS",
+          "latency": "PASS"
+        }
+      }
+    }
+  ]
+}

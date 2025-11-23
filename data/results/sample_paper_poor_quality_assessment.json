@@ -1,0 +1,14 @@
+{
+  "novelty_score": 5,
+  "methodology_score": 4,
+  "citation_score": 3,
+  "completeness_score": 2.0,
+  "overall_quality": "POOR",
+  "average_score": 3.5,
+  "assessment_details": {
+    "has_clear_methodology": false,
+    "demonstrates_novelty": false,
+    "adequate_citations": false,
+    "sections_completeness": "0/6 major sections"
+  }
+}

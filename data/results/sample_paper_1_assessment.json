@@ -1,0 +1,14 @@
+{
+  "novelty_score": 7,
+  "methodology_score": 4,
+  "citation_score": 4,
+  "completeness_score": 10,
+  "overall_quality": "GOOD",
+  "average_score": 6.25,
+  "assessment_details": {
+    "has_clear_methodology": false,
+    "demonstrates_novelty": true,
+    "adequate_citations": false,
+    "sections_completeness": "6/6 major sections"
+  }
+}
