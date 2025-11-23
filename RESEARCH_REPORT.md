@@ -20,10 +20,10 @@ This document presents a comprehensive multi-agent system for automated academic
 - **Production-Ready Code** (~1200 lines) with full error handling
 
 **Key Results:**
-- ✅ 100% Success Rate (6/6 test cases)
-- ✅ 1.2-2.0 seconds per paper review
-- ✅ 30-50 papers/minute throughput
-- ✅ Zero critical failures in evaluation
+-  100% Success Rate (6/6 test cases)
+-  1.2-2.0 seconds per paper review
+-  30-50 papers/minute throughput
+-  Zero critical failures in evaluation
 
 ---
 
@@ -51,14 +51,14 @@ This system addresses these challenges through automation and intelligent agent 
 
 ### 1.3 Contributions
 
-1. ✅ Modular 3-agent architecture with clear role separation
-2. ✅ 6 specialized tool implementations (PDF, citations, quality, search, I/O)
-3. ✅ MCP server deployment enabling distributed orchestration
-4. ✅ Complete evaluation framework (6 test cases, 100% pass rate)
-5. ✅ Interactive Streamlit web UI with export capabilities
-6. ✅ Comprehensive error handling and recovery mechanisms
-7. ✅ Production-ready code with 1200+ lines
-8. ✅ Full documentation and setup guides
+1.  Modular 3-agent architecture with clear role separation
+2.  6 specialized tool implementations (PDF, citations, quality, search, I/O)
+3.  MCP server deployment enabling distributed orchestration
+4.  Complete evaluation framework (6 test cases, 100% pass rate)
+5.  Interactive Streamlit web UI with export capabilities
+6.  Comprehensive error handling and recovery mechanisms
+7.  Production-ready code with 1200+ lines
+8.  Full documentation and setup guides
 
 ---
 
@@ -650,19 +650,19 @@ Example: Batch Processing
 ### 6.2 Key Advantages
 
 ```
-✅ FASTER (22x): 45s → 2s per paper
+ FASTER (22x): 45s → 2s per paper
    Reason: No LLM API calls, pure rule-based analysis
 
-✅ CHEAPER: Free vs. Groq API costs
+ CHEAPER: Free vs. Groq API costs
    No token consumption, offline capability
 
-✅ SIMPLER SETUP: No API keys needed
+ SIMPLER SETUP: No API keys needed
    Just: pip install PyPDF2 streamlit
 
-✅ MORE TOOLS: 6 vs. 4 tools
+ MORE TOOLS: 6 vs. 4 tools
    Added: Section extraction, Quality analysis
 
-✅ MORE FEATURES: Added interactive UI
+ MORE FEATURES: Added interactive UI
    Streamlit-based real-time interface
 ```
 
@@ -676,18 +676,18 @@ Example: Batch Processing
 ┌────────────────────────────────────────┐
 │    EVALUATION RESULTS - 6 TEST CASES   │
 ├────────────────────────────────────────┤
-│ Success Rate:           100% (6/6) ✅  │
+│ Success Rate:           100% (6/6)   │
 │ Mean Latency:           1.8 seconds    │
 │ Median Tool Calls:      7.3 calls      │
 │ Constraint Violations:  0 (0%)         │
 │                                        │
 │ Individual Test Results:                │
-│ ✅ TC001: Paper Loading        PASS    │
-│ ✅ TC002: Citation Analysis    PASS    │
-│ ✅ TC003: Issue Detection      PASS    │
-│ ✅ TC004: End-to-End Workflow  PASS    │
-│ ✅ TC005: Error Recovery       PASS    │
-│ ✅ TC006: Score Validation     PASS    │
+│  TC001: Paper Loading        PASS    │
+│  TC002: Citation Analysis    PASS    │
+│  TC003: Issue Detection      PASS    │
+│  TC004: End-to-End Workflow  PASS    │
+│  TC005: Error Recovery       PASS    │
+│  TC006: Score Validation     PASS    │
 └────────────────────────────────────────┘
 ```
 
@@ -981,7 +981,7 @@ touch eval/__init__.py
 touch mcp-server/__init__.py
 
 # 5. Verify installation
-python -c "from agents.orchestrator import PaperReviewOrchestrator; print('✅ Ready')"
+python -c "from agents.orchestrator import PaperReviewOrchestrator; print(' Ready')"
 ```
 
 ### 10.3 Running the System
@@ -1043,11 +1043,11 @@ docker run -p 8501:8501 paper-reviewer
 
 This research demonstrates a practical, highly efficient multi-agent system for automated academic paper review, achieving:
 
-- ✅ **100% success rate** across all test cases
-- ✅ **1.8 seconds mean latency** per paper (vs. 45s LLM-based)
-- ✅ **Zero dependencies** on expensive APIs
-- ✅ **Full reproducibility** with complete source code
-- ✅ **Production-ready quality** with comprehensive error handling
+-  **100% success rate** across all test cases
+-  **1.8 seconds mean latency** per paper (vs. 45s LLM-based)
+-  **Zero dependencies** on expensive APIs
+-  **Full reproducibility** with complete source code
+-  **Production-ready quality** with comprehensive error handling
 
 ### Key Achievements
 
@@ -1199,11 +1199,10 @@ GitHub:
 
 ---
 
-**Document Version:** 2.0  
-**Last Updated:** November 23, 2025  
-**Status:** Production Ready ✅  
-**Maintained By:** Anindya Bandopadhyay, IIT Jodhpur  
-**License:** MIT (Open Source)
+**Document Version:** 1.0  
+**Last Updated:** November 18, 2025   
+**Maintained By:** Anindya Bandopadhyay
+**License:** Apache 2.0
 
 ---
 
