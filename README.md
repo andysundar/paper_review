@@ -342,9 +342,9 @@ If you use this system, please cite:
 ```bibtex
 @software{paper_reviewer_2025,
   title = {Multi-Agent Research Paper Reviewer},
-  author = {Anindya Bandopadhyay, IIT Jodhpur},
+  author = {Anindya Bandopadhyay},
   year = {2025},
-  url = {https://github.com/...}
+  url = {https://github.com/andysundar/paper_review}
 }
 ```
 
